@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    max-width: 1000px;
+    background-color: #E4F9F5;
+    margin: 0 auto;
+    padding: 20px;
+}
+body{
+    background-color: #EEE;
+    font-family: 'Roboto', sans-serif;
+}
+.profile-img{
+    height: 120px;
+    width: 100px;
+    border-radius: 50%;
+    border: 2px solid white;
+    float: left;
+}
+.header-bio{
+    float: left;
+    padding: 30px;
+}
+h1,h2,h3,h4,h5,h6{
+    color: #11999e;
+}
+.header-contact{
+    float: right;
+    padding: 30px;
+}
+.header-contact a{
+    text-decoration: none;
+    color: teal;
+    font-weight: bold;
+}
+.header-contact a:hover{
+    text-decoration: underline;
+    color: tomato;
+}
+.div-clear{
+    clear: both;
+}
+hr{
+    border: 3px solid black;
+    border-bottom: none;
+    width: 100%;
+    margin: 20px auto;
+}
+/* personal information section */
+.left-div{
+    float: left;
+    width: 30%;
+}
+.right-div{
+    float: left;
+    width: 70%;
+}
+/* common hr */
+.common-hr{
+    border: 1px solid black;
+    border-bottom: none;
+    width: 100%;
+    margin: 20px auto;
+}
+
+/* Education section styles */
+.edu-left{
+    width: 45%;
+    float: left;
+    margin-right: 20px;
+}
+.edu-right{
+    width: 45%;
+    float: left;
+}
+/* footer styles */
+
+.footer-link{
+    text-align: center;
+    padding: 10px;
+    background-color: black;
+}
+.footer-link a{
+    text-decoration: none;
+    color: white;
+    margin: 20px;
+}
+.footer-link p{
+    text-align: center;
+    color: white;
+    margin-top: 20px;
+}
